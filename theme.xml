@@ -87,11 +87,13 @@ author:       By THRONE
    </view>
 
    <view name="system,basic,detailed,big">
+      <!--  
       <image name="logo">
          <path>./_inc/systems/${system.theme}.svg</path>
          <path ifSubset="color-scheme:custom">${themeCustomizationsPath}logos/${system.theme}.svg</path>
          <path ifSubset="color-scheme:custom">${themeCustomizationsPath}logos/${system.theme}.png</path>
       </image>
+      -->
       <text name="logoText">
          <fontPath>${fontLogo}</fontPath>
          <forceUppercase>true</forceUppercase>
@@ -133,7 +135,7 @@ author:       By THRONE
          <pos>0 0.59</pos>
          <size>1 0.25</size>
          <color>fffffff</color>
-         <fontPath>./assets/SEA.ttf</fontPath>
+         <fontPath>./assets/AnalogueOS-Regular.ttf</fontPath>
          <fontSize>0.03</fontSize>
          <visible>true</visible>
       </text>
