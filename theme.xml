@@ -96,9 +96,9 @@ author:       By THRONE
       -->
       <text name="logoText">
          <fontPath>${fontLogo}</fontPath>
-         <forceUppercase>true</forceUppercase>
+         <forceUppercase>false</forceUppercase>
          <lineSpacing>1</lineSpacing>
-         <alignment>center</alignment>
+         <alignment>left</alignment>
       </text>
       <image name="background" extra="true">
          <origin>0 0</origin>
@@ -126,7 +126,7 @@ author:       By THRONE
          <type>vertical</type>
          <logoScale>2.5</logoScale>
          <logoSize>0.25 0.16</logoSize>
-         <maxLogoCount>2</maxLogoCount>
+         <maxLogoCount>8</maxLogoCount>
          <maxLogoCount ifSubset="system-view-style:centered-one-logo">1</maxLogoCount>
          <scrollSound>./_inc/sounds/scroll.wav</scrollSound>
          <defaultTransition>instant</defaultTransition>
